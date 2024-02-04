@@ -1,20 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include "prime.hpp"
 using namespace std;
-
-void prime(int input, int n = 2) {
-
-    if(input % n == 0) {
-        cout << n << " ";
-        return prime(input / n, n);
-    }
-
-    else if (n <= input) {
-        prime(input, n + 1);
-    }
-
-}
-
 
 int main() {
 
