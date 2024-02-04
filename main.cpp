@@ -21,6 +21,11 @@ int main() {
 
     }
 
-    prime (input);
+     cout << "The prime factors of " << input << " are ";
+     
+     prime(input);
+
+     cout << endl;
+    
 
 }
